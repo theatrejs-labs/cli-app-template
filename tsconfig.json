@@ -3,6 +3,7 @@
     "target": "es5",
     "module": "commonjs",
     "sourceMap": true,
+    "sourceRoot": "src/",
     "outDir": "lib/",
     "allowJs": true,
     "skipLibCheck": true,
@@ -12,8 +13,8 @@
     "forceConsistentCasingInFileNames": true,
     "resolveJsonModule": true,
     "isolatedModules": false,
-    "jsx": "preserve"
+    "jsx": "react"
   },
-  "include": ["src"],
+  "include": ["src/**/*.ts", "src/index.tsx", "src/ui.tsx"],
   "exclude": ["node_modules", "**/__tests__/*"]
 }
