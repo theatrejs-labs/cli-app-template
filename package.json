@@ -3,14 +3,16 @@
 	"version": "0.1.0",
 	"license": "MIT",
 	"bin": {
-		"cli-app-template": "cli.js"
+		"cli-app-template": "./lib/index.js"
 	},
 	"engines": {
 		"node": ">=8"
 	},
 	"scripts": {
 		"build:watch": "tsc -w",
-		"build": "tsc"
+		"build": "tsc",
+		"start": "node ./lib/index.js",
+		"start:watch": "nodemon ./lib/index.js"
 	},
 	"dependencies": {
 		"ink": "^2.3.0",
@@ -26,6 +28,7 @@
 		"@types/node": "12.0.10",
 		"@types/react": "^16.8.23",
 		"chalk": "^2.4.2",
+		"nodemon": "^1.19.1",
 		"typescript": "^3.5.3"
 	}
 }
