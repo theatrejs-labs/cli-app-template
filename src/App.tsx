@@ -3,9 +3,7 @@ import React, { Component } from 'react'
 import { Text, Color } from 'ink'
 
 interface IProps {
-	flags: {
-		name: string
-	}
+	flags: any
 }
 interface IState {}
 
