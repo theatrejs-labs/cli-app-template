@@ -1,5 +1,5 @@
 #!/usr/bin/env node
-import React, {Component} from 'react'
+import React, { Component } from 'react'
 import meow from 'meow'
 import { render } from 'ink'
 import App from './App'
@@ -14,6 +14,6 @@ const cli = meow(`
 	Examples
 	  $ cli-app-template --name=Jane
 	  Hello, Jane
-`);
+`)
 
-render(<App flags={cli.flags} />);
+render(<App flags={cli.flags} />)
