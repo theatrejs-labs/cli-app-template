@@ -15,6 +15,6 @@
     "isolatedModules": false,
     "jsx": "react"
   },
-  "include": ["src/**/*.ts", "src/index.tsx", "src/ui.tsx"],
+  "include": ["src/**/*.ts", "src/index.ts", "src/ui.tsx"],
   "exclude": ["node_modules", "**/__tests__/*"]
 }
